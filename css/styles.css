@@ -1,0 +1,355 @@
+@font-face{ 
+	font-family: 'CallunaSans';
+	src: url('../font/CallunaSansRegular-webfont.eot');
+	src: url('../font/CallunaSansRegular-webfont?#iefix') format('embedded-opentype'),
+	     url('../font/CallunaSansRegular-webfont.woff') format('woff'),
+	     url('../font/CallunaSansRegular-webfont.ttf') format('truetype'),
+	     url('../font/CallunaSansRegular-webfont.svg#webfont') format('svg');
+}
+
+html {
+	font: 10px Arial;
+}
+body {
+	font-size: 1.6rem;
+	margin: 0;
+	padding: 0;
+}
+
+/*-------------------------------------------------------------------------*/
+/* =HEADER                                                                 */
+/*-------------------------------------------------------------------------*/	
+#title, #menu, .slicknav_menu {
+	background: rgba(30,30,30,0.8);
+	box-sizing: border-box;
+	height: 70px;
+	height: 7rem;
+	padding: 0 20px;
+	padding: 0 2rem;
+	position: absolute;
+	top: 0;
+	z-index: 10;
+}
+#title {
+	color: #FFF;
+	font-size: 14px;
+	font-size: 1.4rem;
+	left: 0;
+	text-transform: uppercase;
+	width: 60%;
+}
+#title > h1 {
+	font-size: 18px;
+	font-size: 1.8rem;
+	margin: 15px 0 0 0;
+	margin: 1.5rem 0 0 0;
+}
+#headerImage {
+	background: url('../img/header.png') no-repeat center;
+	height: 200px;
+}
+#title > a:link, #title > a:active, #title > a:visited, #title > a:hover {
+	color: #66EEFF;
+}
+
+/*-------------------------------------------------------------------------*/
+/* =MENU SYSTEM                                                            */
+/*-------------------------------------------------------------------------*/	
+#menu {
+	display: none;
+}
+#menu, .slicknav_menu {
+	right: 0;
+	width: 40%;
+}
+.slicknav_menu {
+	padding: 15px;
+}
+.slicknav_nav {
+	background: rgba(30,30,30,.8);
+	margin-top: 55px;
+	margin-top: 5.5rem;
+}
+.slicknav_nav a {
+	text-align: right;
+	font-size: 16px;
+	font-size: 1.6rem;
+	line-height: 1.5;
+}
+
+/*-------------------------------------------------------------------------*/
+/* =CAROUSEL                                                               */
+/*-------------------------------------------------------------------------*/
+#carousel {
+	box-shadow: 0 5px 5px #888;
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+	padding: 0;
+}
+#carousel .item {
+	background-color: #FFF;
+	background-size: cover;
+	background-position: center center;
+	height: 225px;
+	width: 100%;
+}
+
+/*-------------------------------------------------------------------------*/
+/* =STAR DIVS                                                              */
+/*-------------------------------------------------------------------------*/
+div.star {
+	border: 35px solid transparent;
+	border-image: url(../img/star-box.png) 72 72 round;
+	margin: 20px 0;
+	margin: 2rem 0;
+	position: relative;
+}
+div.star h2 {
+	background: #494949;
+	color: #FFF;
+	margin: -15px -15px 20px -15px;
+	margin: -15px -15px 2rem -15px;
+	padding: 20px;
+	padding: 2rem;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	z-index: -1;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/* =HEADINGS                                                               */
+/*-------------------------------------------------------------------------*/	
+h1, h2, h3 {
+	font-family: CallunaSans;
+}
+h3 {
+	margin: 30px 0 10px 0;
+	margin: 3rem 0 1rem 0;
+	color: #007722;
+}
+
+h3 + p {
+	margin-top: 10px;
+}
+
+/*-------------------------------------------------------------------------*/
+/* =TABLES                                                               */
+/*-------------------------------------------------------------------------*/
+table {
+	border-collapse: collapse;
+}
+table, tr, td {
+	border: 1px solid #333;
+}
+td, th {
+	padding: 10px;
+	padding: 1rem;
+}
+th {
+	background: #EEE;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/* =DESCRIPTION LISTS                                                      */
+/*-------------------------------------------------------------------------*/
+dl {
+	overflow: auto;
+}
+dt, dd {
+	float: left;
+	margin: 5px 0;
+	margin: .5rem 0;
+	padding: 0;
+}
+dt {
+	width: 40%;
+}
+dd {
+	text-align: right;
+	width: 60%;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/* =CLASS SELECTORS                                                        */
+/*-------------------------------------------------------------------------*/
+hr.dashed {
+	background: none;
+	border: 0;
+	border-top: 1px dashed #494949;
+	margin: 0; 
+	padding: 0;
+}
+.center {
+	text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/* =FOOTER                                                                 */
+/*-------------------------------------------------------------------------*/
+footer {
+	background: url('../img/footer.png') no-repeat center center;
+	box-sizing: border-box;
+	color: #FFF;
+	display: block;
+	padding: 25px 5% 20px 5%;
+	padding: 2.5rem 5% 2rem 5%;
+	margin-top: 40px;
+	margin-top: 4rem;
+	position: relative;
+}
+footer:before {
+	content: "";
+	background: rgba(30,30,30,0.8);
+	left: 0;
+	display: block;
+	position: absolute;
+	width: 100%;
+	top: 5px;
+	bottom: 0;
+}
+footer > span {
+	display: block;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+}
+footer > span + span {
+	margin-top: 15px;
+	margin-top: 1.5rem;
+}
+footer a:link, footer  a :active, footer  a:visited, footer a:hover {
+	color: #66EEFF;
+	text-decoration: underline;
+}
+
+/***************************************************************************/
+/* =TABLET                                                                 */
+/***************************************************************************/
+@media all and (min-width: 46.875em) {
+	#title {
+		width: 30%;
+	}
+	#menu {
+		display: block;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		list-style-type: none;
+		margin: 0 0 20px 0;
+		margin: 0 0 2rem 0;
+		width: 70%;
+	}
+	#menu li {
+		float: right;
+		line-height: 70px;
+		line-height: 7rem;
+		padding: 0 10px;
+		padding: 0 1rem;
+	}
+	#menu li>a {
+		color: #FFF;
+		font-size: 14px;
+		font-size: 1.4rem;
+		text-decoration: none;
+		text-transform: uppercase;
+	}
+	.slicknav_menu {
+		display: none;
+	}
+	
+	/* Star Divs*/
+	div.star {
+		margin: 0;
+	}
+	
+	#content {
+		overflow: auto;
+	}
+	#welcome, #hours, #pageContent, #pageImage {
+		box-sizing: border-box;
+		margin: 20px 2.5%;
+		margin: 2rem 2.5%;
+	}
+	#welcome {
+		float: left;
+		width: 60%;
+	}
+	#hours {
+		float: right;
+		width: 30%;
+	}
+	#pageContent {
+		float: left;
+		width: 50%;
+	}
+	#pageImage {
+		float: right;
+		width: 40%
+	}
+	
+	/*-------------------------------------------------------------------------*/
+	/* =T_DESCRIPTION LISTS                                                    */
+	/*-------------------------------------------------------------------------*/
+	dt, dd {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	dd {
+		margin-bottom: 15px;
+		margin-bottom: 1.5rem;
+		text-align: left;
+	}
+
+	/*-------------------------------------------------------------------------*/
+	/* =T_FOOTER                                                               */
+	/*-------------------------------------------------------------------------*/
+	footer {
+		display: table;
+		width: 100%;
+	}
+	footer > span {
+		display: table-cell;
+		text-align: left;
+	}
+	footer > span:last-child {
+		text-align: right;
+	}
+}
+
+@media all and (min-width: 62.5em) {
+	/*-------------------------------------------------------------------------*/
+	/* =D_DESCRIPTION LISTS                                                    */
+	/*-------------------------------------------------------------------------*/
+	dl {
+		overflow: auto;
+	}
+	dt, dd {
+		float: left;
+	}
+	dt {
+		width: 40%;
+	}
+	dd {
+		text-align: right;
+		width: 60%;
+	}
+}
+/***************************************************************************/
+/* =HEIGHT BASED MEDIA QUERIES                                             */
+/***************************************************************************/
+@media all and (min-height: 37.5em) {
+	#carousel .item {
+		height: 300px;
+	}
+}
+@media all and (min-height: 62.5em) {
+	#carousel .item {
+		height: 400px;
+	}
+}
