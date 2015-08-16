@@ -4,6 +4,7 @@
 		<title>Hilltop Ranch</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="plugins/slick/slicknav.css" />
@@ -37,9 +38,9 @@
 			<div id="pageImage" style="margin-top: 40px;">
 			
 				<div id="carousel" class="owl-carousel">
-					<img src="img/leasing/feeding.jpg" />
-					<img src="img/leasing/twohorses.jpg" />
-					<img src="img/leasing/horses-feeding.jpg" />
+					<img src="img/leasing/feeding.jpg" alt="Horses at Feeder Photo" />
+					<img src="img/leasing/twohorses.jpg" alt="Horses Photo" />
+					<img src="img/leasing/horses-feeding.jpg" alt="Horses at Feeder Photo 2" />
 				</div>
 			</div>
 		</div>

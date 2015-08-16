@@ -4,16 +4,14 @@
 		<title>Hilltop Ranch</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		<meta name="description" content="Horse farm offering riding, lessons, boarding, leasing, and parties. Located in beautiful Mohnton, Pennsylvania." />
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="plugins/slick/slicknav.css" />
 		<link rel="stylesheet" href="plugins/owl/owl.carousel.css" />
 		<link rel="stylesheet" href="plugins/owl/owl.theme.default.min.css" />
 		<link rel="stylesheet" href="css/styles.css" />
-
-		<!-- JS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		
 	</head>
 	<body>
 		<?php include ("includes/header.php");?>
@@ -33,6 +31,7 @@
 					<li>Boarding and Leasing</li>
 					<li>Parties and Events</li>
 					<li>Training</li>
+				</ul>
 			</div>
 			
 			<div id="hours" class="star">

@@ -1,6 +1,6 @@
 		<header>
 			<div id="title">
-				<h1 onclick="document.location.href='/index.php';" style="cursor: pointer;">Hilltop Ranch</h1>
+				<h1>Hilltop Ranch</h1>
 				<a href="tel:6107774204">(610) 777 - 4204</a>
 			</div>
 			
