@@ -1,0 +1,12 @@
+@font-face{ 
+	font-family: 'CallunaSans';
+	src: url('../font/CallunaSansRegular-webfont.eot');
+	src: url('../font/CallunaSansRegular-webfont?#iefix') format('embedded-opentype'),
+	     url('../font/CallunaSansRegular-webfont.woff') format('woff'),
+	     url('../font/CallunaSansRegular-webfont.ttf') format('truetype'),
+	     url('../font/CallunaSansRegular-webfont.svg#webfont') format('svg');
+}
+
+h1, h2, h3 {
+	font-family: CallunaSans;
+}

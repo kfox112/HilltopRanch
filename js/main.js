@@ -39,12 +39,17 @@ $(document).ready(function() {
 	$("#menu").slicknav({
 		label: ""
 	});
+
 	$(".owl-carousel").owlCarousel({
 		loop: true,
+		lazyLoad: true,
 		margin: 10,
 		items:1
 	});
-	
+
+	//Deferred font loading
+	$("head").append("<link rel=\"stylesheet\" href=\"css/webfonts.css\" />");
+
 	$(window).resize(function() {
 		pushFooterToViewportBottom();
 	});

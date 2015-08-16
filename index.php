@@ -22,7 +22,7 @@
 				<h2>Welcome</h2>
 				
 				<h3>About Us</h3>
-				<p>Hilltop Ranch is a beautiful sixty eight acre farm located in Mohnton, Pennsylvania.  We have been a family owned, operated, and oriented business for over 20 years.  Call us to set up a lesson, ride, or event.  We promise an enjoyable experience that you will never forget.</p>
+				<p>Hilltop Ranch is a beautiful 68 acre farm located in Mohnton, Pennsylvania.  We have been a family owned, operated, and oriented business for over 20 years.  Call us to set up a lesson, ride, or event.  We promise an enjoyable experience that you will never forget.</p>
 				
 				<h3>Available Services</h3>
 				<ul>

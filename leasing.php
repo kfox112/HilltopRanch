@@ -32,35 +32,19 @@
 				<p>Summer camps return horses to you in the late summer or early fall.  You have exclusive access to your horse until June, when the horses must return to their summer camp.</p>
 
 				<h3>Rates</h3>
-				<p>Please contact us for pricing: <a href="tel:6107774204">(610) 777-4204</a></p>
+				<p>Please contact us for pricing: <a href="tel:6107774204">(610)&nbsp;777-4204</a></p>
 			</div>
 			
 			<div id="pageImage" style="margin-top: 40px;">
 			
 				<div id="carousel" class="owl-carousel">
 					<img src="img/leasing/feeding.jpg" alt="Horses at Feeder Photo" />
-					<img src="img/leasing/twohorses.jpg" alt="Horses Photo" />
-					<img src="img/leasing/horses-feeding.jpg" alt="Horses at Feeder Photo 2" />
+					<img class="owl-lazy" data-src="img/leasing/twohorses.jpg" alt="Horses Photo" />
+					<img class="owl-lazy" data-src="img/leasing/horses-feeding.jpg" alt="Horses at Feeder Photo 2" />
 				</div>
 			</div>
 		</div>
 
 		<?php include("includes/footer.php");?>
-		
-		<!-- JS -->
-		<script src="plugins/slick/jquery.slicknav.min.js"></script>
-		<script src="plugins/owl/owl.carousel.min.js"></script>
-		<script>
-			$(document).ready(function() {
-				$("#menu").slicknav({
-					label: ""
-				});
-				$(".owl-carousel").owlCarousel({
-					loop: true,
-					margin: 0,
-					items:1
-				});
-			});
-		</script>
 	</body>
 </html>

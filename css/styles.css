@@ -1,11 +1,4 @@
-@font-face{ 
-	font-family: 'CallunaSans';
-	src: url('../font/CallunaSansRegular-webfont.eot');
-	src: url('../font/CallunaSansRegular-webfont?#iefix') format('embedded-opentype'),
-	     url('../font/CallunaSansRegular-webfont.woff') format('woff'),
-	     url('../font/CallunaSansRegular-webfont.ttf') format('truetype'),
-	     url('../font/CallunaSansRegular-webfont.svg#webfont') format('svg');
-}
+
 
 html {
 	font: 10px Arial;
@@ -121,9 +114,6 @@ div.star h2 {
 /*-------------------------------------------------------------------------*/
 /* =HEADINGS                                                               */
 /*-------------------------------------------------------------------------*/	
-h1, h2, h3 {
-	font-family: CallunaSans;
-}
 h3 {
 	margin: 30px 0 10px 0;
 	margin: 3rem 0 1rem 0;
@@ -132,23 +122,6 @@ h3 {
 
 h3 + p {
 	margin-top: 10px;
-}
-
-/*-------------------------------------------------------------------------*/
-/* =TABLES                                                               */
-/*-------------------------------------------------------------------------*/
-table {
-	border-collapse: collapse;
-}
-table, tr, td {
-	border: 1px solid #333;
-}
-td, th {
-	padding: 10px;
-	padding: 1rem;
-}
-th {
-	background: #EEE;
 }
 
 
@@ -170,6 +143,24 @@ dt {
 dd {
 	text-align: right;
 	width: 60%;
+}
+
+
+/*-------------------------------------------------------------------------*/
+/* =TABLES                                                               */
+/*-------------------------------------------------------------------------*/
+table {
+	border-collapse: collapse;
+}
+table, tr, td {
+	border: 1px solid #333;
+}
+td, th {
+	padding: 10px;
+	padding: 1rem;
+}
+th {
+	background: #EEE;
 }
 
 

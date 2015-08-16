@@ -39,27 +39,11 @@
 			
 				<div id="carousel" class="owl-carousel">
 					<img src="img/events/bonfire.jpg" alt="Bonfire Photo" />
-					<img src="img/riding/trail.jpg" alt="Trail Photo" />
+					<img class="owl-lazy" data-src="img/riding/trail.jpg" alt="Trail Photo" />
 				</div>
 			</div>
 		</div>
 
 		<?php include("includes/footer.php");?>
-		
-		<!-- JS -->
-		<script src="plugins/slick/jquery.slicknav.min.js"></script>
-		<script src="plugins/owl/owl.carousel.min.js"></script>
-		<script>
-			$(document).ready(function() {
-				$("#menu").slicknav({
-					label: ""
-				});
-				$(".owl-carousel").owlCarousel({
-					loop: true,
-					margin: 0,
-					items:1
-				});
-			});
-		</script>
 	</body>
 </html>
