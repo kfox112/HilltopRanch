@@ -51,5 +51,6 @@
 		</div>
 
 		<?php include("includes/footer.php");?>
+		<?php include("includes/analytics.php");?>
 	</body>
 </html>
