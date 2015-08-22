@@ -26,7 +26,7 @@
 				<h2>Events</h2>
 				
 				<h3>Pony Parties</h3>
-				<p>We will come to you or you can come to us.  Contact us for details, pricing, and reservations.</p>
+				<p>Your place or ours: contact us for details, pricing, and reservations.  Weather permitting.</p>
 
 				<h3>Bon Fires & Picnics</h3>
 				<p>We have a large bon fire pit on our mountain with a small clubhouse outfitted with a refridgerator, sink, and connection for electric cookware.  A grill is available for outdoor cooking.    Contact us for details, pricing, and reservations.</p>

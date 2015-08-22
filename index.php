@@ -26,7 +26,7 @@
 				
 				<h3>Available Services</h3>
 				<ul>
-					<li>Horse Rides / Lessons</li>
+					<li>Adult Trail Rides / Lessons</li>
 					<li>Pony Rides / Lessons</li>
 					<li>Boarding and Leasing</li>
 					<li>Parties and Events</li>
@@ -36,6 +36,10 @@
 			
 			<div id="hours" class="star">
 				<h2>Hours</h2>
+
+				<p class="center"><small><em>Hours are by appointment only.  We are available for appointments during the times listed below.</em></small></p>
+				<hr class="dashed" />
+
 				<dl>
 					<dt>Monday</dt>
 					<dd>10:00am - 5:00pm</dd>
@@ -55,8 +59,6 @@
 					<dt>Sunday</dt>
 					<dd>10:00am - 5:00pm</dd>
 				</dl>
-				
-				<div class="center"><small>*Additional hours available by appointment.</small></div>
 			</div>
 		</div>
 		<?php include("includes/footer.php");?>
