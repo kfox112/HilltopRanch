@@ -31,7 +31,7 @@
 				<table>
 					<tr>
 						<th>Trail Rides</th>
-						<td>$35 per hour</td>
+						<td>$40 per hour</td>
 					</tr>
 					<tr>
 						<th>Riding Lessons</th>
