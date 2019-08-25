@@ -44,6 +44,11 @@ body {
 #title > a:link, #title > a:active, #title > a:visited, #title > a:hover {
 	color: #66EEFF;
 }
+#alert {
+	background: #fff6c6;
+	padding: 15px;
+	text-align: center;
+}
 
 /*-------------------------------------------------------------------------*/
 /* =MENU SYSTEM                                                            */
