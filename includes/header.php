@@ -7,8 +7,7 @@
 			<ul id="menu">
 				<li><a href="index.php">Home</a></li>
 				<li><a href="boarding.php">Boarding</a></li>
-				<li><a href="leasing.php">Leasing</a></li>
 				<li><a href="riding.php">Riding</a></li>
-				<li><a href="events.php">Events</a></li>
+				<li><a href="events.php">Parties / Events</a></li>
 			</ul>
 		</header>

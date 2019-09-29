@@ -19,6 +19,7 @@
 	<body>
 		<?php include ("includes/header.php");?>
 
+<?php /*
 		<div id="headerImage"></div>
 		
 		<div id="content">
@@ -48,4 +49,5 @@
 		<?php include("includes/footer.php");?>
 		<?php include("includes/analytics.php");?>
 	</body>
+	*/ ?>
 </html>

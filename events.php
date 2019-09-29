@@ -28,17 +28,13 @@
 				<h3>Pony Parties</h3>
 				<p>Your place or ours: contact us for details, pricing, and reservations.  Weather permitting.</p>
 
-				<h3>Bon Fires & Picnics</h3>
-				<p>We have a large bon fire pit on our mountain with a small clubhouse outfitted with a refridgerator, sink, and connection for electric cookware.  A grill is available for outdoor cooking.    Contact us for details, pricing, and reservations.</p>
-
-				<h3>Hayrides</h3>
-				<p>In the fall, we host hayrides and hayride parties.  Take a ride on our tractor pulled haywagon through our many trails.  Hayride parties conclude at our bon fire pit and clubhouse.</p>
+				<h3>Themed Pony Parties</h3>
+				<p>Need a unicorn instead of a pony?  Let us know!</p>
 			</div>
 			
 			<div id="pageImage" style="margin-top: 40px;">
-			
 				<div id="carousel" class="owl-carousel">
-					<img src="img/events/bonfire.jpg" alt="Bonfire Photo" />
+					<img class="owl-lazy" data-src="img/riding/trail.jpg" alt="Trail Photo" />
 					<img class="owl-lazy" data-src="img/riding/trail.jpg" alt="Trail Photo" />
 				</div>
 			</div>
