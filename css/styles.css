@@ -290,6 +290,16 @@ footer a:link, footer  a :active, footer  a:visited, footer a:hover {
 		float: right;
 		width: 40%
 	}
+	#colLeft, #colRight {
+		box-sizing: border-box;
+		width: 50%;
+	}
+	#colLeft {
+		float: left;
+	}
+	#colRight {
+		float: right;
+	}
 	
 	/*-------------------------------------------------------------------------*/
 	/* =T_DESCRIPTION LISTS                                                    */

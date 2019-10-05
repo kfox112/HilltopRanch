@@ -16,7 +16,7 @@
 	<body>
 		<?php include ("includes/header.php");?>
 		<?php include ("includes/gallery.php");?>
-		<?php //<div id="alert">Hilltop Ranch will be closed 08/28/2019 thru 09/04/2019.  We apologize for any inconvenience.</div> ?>
+		<div id="alert">We have two horses for sale!  <a href="sale.php">Click here</a> for details.</div>
 
 		<div id="content">
 			<div id="welcome" class="star">
