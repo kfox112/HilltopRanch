@@ -8,6 +8,7 @@
 				<li><a href="index.php">Home</a></li>
 				<li><a href="boarding.php">Boarding</a></li>
 				<li><a href="riding.php">Riding</a></li>
+				<li><a href="lessons.php">Lessons</a></li>
 				<li><a href="events.php">Parties / Events</a></li>
 			</ul>
 		</header>

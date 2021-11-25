@@ -25,17 +25,23 @@
 			<div id="pageContent" class="star">
 				<h2>Riding</h2>
 				
-				<p>With miles of scenic trails and open fields, Hilltop Ranch is the perfect place for both beginners and experienced riders.  As per your experience level, take a guided walk, trot, canter, or gallop through our trails on one of our friendly and safe horses.  You'll get to see varying landscapes and wildlife as we wind through trails, over creeks and through the woods.  Trail rides are for adults only (18+) but we do offer riding lessons for children.</p>
+				<p>With miles of scenic trails and open fields, Hilltop Ranch is the perfect place for both beginners and experienced riders.  As per your experience level, take a guided walk, trot, canter, or gallop through our trails on one of our friendly and safe horses.  You'll get to see varying landscapes and wildlife as we wind through trails, over creeks and through the woods.  Adults (18+) only.</p>
+				
+				<p> Looking to bring kids?  We offer supervised pony rides for kids 7 and under and <a href='lessons.php'>riding lessons</a> for children ages 7-18.</p>
 				
 				<h3>Pricing</h3>
 				<table>
 					<tr>
-						<th>Trail Rides</th>
+						<th>Trail Rides (18+)</th>
 						<td>$50 per hour</td>
 					</tr>
 					<tr>
-						<th>Riding Lessons</th>
-						<td>$40 per hour</td>
+						<th>Lessons (7+)</th>
+						<td>See our <a href="lessons.php">Lessons</a> page</td>
+					</tr>
+					<tr>
+						<th>Pony Rides (7 and under)</th>
+						<td>Contact us</td>
 					</tr>
 				</table>
 			</div>
@@ -43,6 +49,9 @@
 			<div id="pageImage" style="margin-top: 40px;">
 			
 				<div id="carousel" class="owl-carousel">
+					<img src="img/riding/girls.jpg" alt="Girls Trail Riding" />
+					<img src="img/riding/kid1.jpg" alt="Kid 1 Pony Ride" />
+					<img src="img/riding/kid2.jpg" alt="Kid 2 Pony Ride" />
 					<img src="img/riding/trail.jpg" alt="Trail Photo" />
 					<img class="owl-lazy" data-src="img/riding/flower.jpg" alt="Flower Photo" />
 					<img class="owl-lazy" data-src="img/riding/trail2.jpg" alt="Trail Photo 2" />

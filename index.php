@@ -16,7 +16,7 @@
 	<body>
 		<?php include ("includes/header.php");?>
 		<?php include ("includes/gallery.php");?>
-		<div id="alert">We have two horses for sale!  <a href="sale.php">Click here</a> for details.</div>
+		<div id="alert">We have a horse for sale!  <a href="sale.php">Click here</a> for details.</div>
 
 		<div id="content">
 			<div id="welcome" class="star">
@@ -27,8 +27,9 @@
 				
 				<h3>Available Services</h3>
 				<ul>
-					<li>Adult Trail Rides / Lessons</li>
-					<li>Pony Rides / Lessons</li>
+					<li>Trail Rides (18+)</li>
+					<li>Lessons (7+)</li>
+					<li>Pony Rides (&lt;=7)</li>
 					<li>Boarding</li>
 					<li>Parties and Events</li>
 					<li>Training</li>
@@ -38,27 +39,27 @@
 			<div id="hours" class="star">
 				<h2>Hours</h2>
 
-				<p class="center"><small><em>Hours are by appointment only.  We are available for appointments during the times listed below.</em></small></p>
+				<p class="center"><small><em>Hours are by appointment only.  We are available for appointments during the times listed below, weather permitting.</em></small></p>
 				<hr class="dashed" />
 
 				<dl>
 					<dt>Monday</dt>
-					<dd>10:00am - 5:00pm</dd>
+					<dd>11:00am - 5:00pm</dd>
 					<dt>Tuesday</dt>
-					<dd>10:00am - 5:00pm</dd>
+					<dd>Closed</dd>
 					<dt>Wednesday</dt>
-					<dd>10:00am - 5:00pm</dd>
+					<dd>11:00am - 5:00pm</dd>
 					<dt>Thursday</dt>
-					<dd>10:00am - 5:00pm</dd>
+					<dd>11:00am - 5:00pm</dd>
 					<dt>Friday</dt>
-					<dd>10:00am - 5:00pm</dd>
+					<dd>11:00am - 5:00pm</dd>
 				</dl>
 				<hr class="dashed" />
 				<dl>
 					<dt>Saturday</dt>
-					<dd>10:00am - 5:00pm</dd>
+					<dd>11:00am - 5:00pm</dd>
 					<dt>Sunday</dt>
-					<dd>10:00am - 5:00pm</dd>
+					<dd>11:00am - 5:00pm</dd>
 				</dl>
 			</div>
 		</div>

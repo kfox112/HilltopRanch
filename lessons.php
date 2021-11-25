@@ -23,19 +23,27 @@
 		
 		<div id="content">
 			<div id="pageContent" class="star">
-				<h2>Events</h2>
+				<h2>Lessons</h2>
 				
-				<h3>Pony Parties</h3>
-				<p>Pony parties are available on-site.  Contact us for details, pricing, and reservations.  Weather permitting.</p>
-
-				<h3>Themed Pony Parties</h3>
-				<p>Need a unicorn instead of a pony?  Let us know!</p>
+				<p>Interested in learing to ride?</p>
+				
+				<p>We offer lessons for adults as well as for children 7+.  Whether a beginner or experienced rider, theres always something to learn here at Hilltop Ranch.</p>
+				
+				<h3>Pricing</h3>
+				<table>
+					<tr>
+						<th>Riding Lessons</th>
+						<td>$40 per hour</td>
+					</tr>
+				</table>
 			</div>
 			
 			<div id="pageImage" style="margin-top: 40px;">
+			
 				<div id="carousel" class="owl-carousel">
-					<img class="owl-lazy" data-src="img/riding/trail.jpg" alt="Trail Photo" />
-					<img class="owl-lazy" data-src="img/riding/trail.jpg" alt="Trail Photo" />
+					<img src="img/riding/trail.jpg" alt="Trail Photo" />
+					<img class="owl-lazy" data-src="img/riding/flower.jpg" alt="Flower Photo" />
+					<img class="owl-lazy" data-src="img/riding/trail2.jpg" alt="Trail Photo 2" />
 				</div>
 			</div>
 		</div>
