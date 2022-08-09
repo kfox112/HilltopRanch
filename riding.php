@@ -33,7 +33,7 @@
 				<table>
 					<tr>
 						<th>Trail Rides (18+)</th>
-						<td>$50 per hour</td>
+						<td>$60 per hour</td>
 					</tr>
 					<tr>
 						<th>Lessons (7+)</th>
