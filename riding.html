@@ -5,6 +5,9 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+		
+		<!-- JQUERY -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
 		<!-- CSS -->
 		<link rel="stylesheet" href="plugins/slick/slicknav.css" />
@@ -12,12 +15,16 @@
 		<link rel="stylesheet" href="plugins/owl/owl.theme.default.min.css" />
 		<link rel="stylesheet" href="css/styles.css" />
 
-		<!-- JS -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-		
+		<!-- Process Includes -->
+		<script>
+			$(function(){
+				$("#header").load("includes/header.html"); 
+				$("#footer").load("includes/footer.html"); 
+			});
+		</script>
 	</head>
 	<body>
-		<?php include ("includes/header.php");?>
+		<div id="header"></div>
 
 		<div id="headerImage"></div>
 		
@@ -27,7 +34,7 @@
 				
 				<p>With miles of scenic trails and open fields, Hilltop Ranch is the perfect place for both beginners and experienced riders.  As per your experience level, take a guided walk, trot, canter, or gallop through our trails on one of our friendly and safe horses.  You'll get to see varying landscapes and wildlife as we wind through trails, over creeks and through the woods.  Adults (18+) only.</p>
 				
-				<p> Looking to bring kids?  We offer supervised pony rides for kids 7 and under and <a href='lessons.php'>riding lessons</a> for children ages 7-18.</p>
+				<p> Looking to bring kids?  We offer supervised pony rides for kids 7 and under and <a href='lessons.html'>riding lessons</a> for children ages 7-18.</p>
 				
 				<h3>Pricing</h3>
 				<table>
@@ -37,7 +44,7 @@
 					</tr>
 					<tr>
 						<th>Lessons (7+)</th>
-						<td>See our <a href="lessons.php">Lessons</a> page</td>
+						<td>See our <a href="lessons.html">Lessons</a> page</td>
 					</tr>
 					<tr>
 						<th>Pony Rides (7 and under)</th>
@@ -59,7 +66,7 @@
 			</div>
 		</div>
 
-		<?php include("includes/footer.php");?>
-		<?php include("includes/analytics.php");?>
+		<div id="footer"></div>
+		<script src="js/analytics.js"></script>
 	</body>
 </html>

@@ -7,16 +7,28 @@
 		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 		<meta name="description" content="Horse farm offering riding, lessons, boarding, leasing, and parties. Located in beautiful Mohnton, Pennsylvania." />
 
+		<!-- JQUERY -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
 		<!-- CSS -->
 		<link rel="stylesheet" href="plugins/slick/slicknav.css" />
 		<link rel="stylesheet" href="plugins/owl/owl.carousel.css" />
 		<link rel="stylesheet" href="plugins/owl/owl.theme.default.min.css" />
 		<link rel="stylesheet" href="css/styles.css" />
+
+		<!-- Process Includes -->
+		<script>
+			$(function(){
+				$("#header").load("includes/header.html"); 
+				$("#gallery").load("includes/gallery.html");
+				$("#footer").load("includes/footer.html"); 
+			});
+		</script>
 	</head>
 	<body>
-		<?php include ("includes/header.php");?>
-		<?php include ("includes/gallery.php");?>
-		<div id="alert">We have a horse for sale!  <a href="sale.php">Click here</a> for details.</div>
+		<div id="header"></div>
+		<div id="gallery"></div>
+		<div id="alert">We have a horse for sale!  <a href="sale.html">Click here</a> for details.</div>
 
 		<div id="content">
 			<div id="welcome" class="star">
@@ -63,7 +75,7 @@
 				</dl>
 			</div>
 		</div>
-		<?php include("includes/footer.php");?>
-		<?php include("includes/analytics.php");?>
+		<div id="footer"></div>
+		<script src="js/analytics.js"></script>
 	</body>
 </html>
