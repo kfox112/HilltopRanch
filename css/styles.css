@@ -49,6 +49,9 @@ body {
 	padding: 15px;
 	text-align: center;
 }
+#alert img {
+	vertical-align: middle;
+}
 
 /*-------------------------------------------------------------------------*/
 /* =MENU SYSTEM                                                            */
